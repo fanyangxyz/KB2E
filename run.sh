@@ -16,6 +16,7 @@ mv ../TransE/Test_TransE exps/
 pushd exps
 
 ./Train_TransE >> log.txt
+echo `date` >> log.txt
 echo "" >> log.txt
 
 ./Test_TransE bern >> log.txt

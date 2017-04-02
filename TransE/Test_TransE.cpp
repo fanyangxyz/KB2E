@@ -225,8 +225,8 @@ Test test;
 
 void prepare()
 {
-    FILE* f1 = fopen("../data/entity2id.txt","r");
-	FILE* f2 = fopen("../data/relation2id.txt","r");
+    FILE* f1 = fopen("../entity2id.txt","r");
+	FILE* f2 = fopen("../relation2id.txt","r");
 	int x;
 	while (fscanf(f1,"%s%d",buf,&x)==2)
 	{
@@ -243,7 +243,7 @@ void prepare()
 		id2relation[x]=st;
 		relation_num++;
 	}
-    FILE* f_kb = fopen("../data/test.txt","r");
+    FILE* f_kb = fopen("../test.txt","r");
 	while (fscanf(f_kb,"%s",buf)==1)
     {
         string s1=buf;
@@ -268,7 +268,7 @@ void prepare()
         test.add(entity2id[s1],entity2id[s2],relation2id[s3],true);
     }
     fclose(f_kb);
-    FILE* f_kb1 = fopen("../data/train.txt","r");
+    FILE* f_kb1 = fopen("../train.txt","r");
 	while (fscanf(f_kb1,"%s",buf)==1)
     {
         string s1=buf;
@@ -297,7 +297,7 @@ void prepare()
         test.add(entity2id[s1],entity2id[s2],relation2id[s3],false);
     }
     fclose(f_kb1);
-    FILE* f_kb2 = fopen("../data/valid.txt","r");
+    FILE* f_kb2 = fopen("../valid.txt","r");
 	while (fscanf(f_kb2,"%s",buf)==1)
     {
         string s1=buf;

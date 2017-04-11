@@ -1,0 +1,11 @@
+/usr1/public/fanyang1/KB2E/data-umls/exps/log.txt
+46 135
+left:22.5956	0.351471	2.63529	0.976471
+right:15.5603	0.370588	2.39412	0.986765
+Mon Apr 3 02:03:08 EDT 2017
+
+/usr1/public/fanyang1/KB2E/data-kin/exps/log.txt
+25 104
+left:17.5182	0.371818	10.9255	0.678182
+right:15.5564	0.471818	10.2455	0.714545
+Mon Apr 3 02:03:23 EDT 2017

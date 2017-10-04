@@ -1,0 +1,35 @@
+/usr1/public/fanyang1/KB2E/data-umls/exps/log.txt
+46 135
+left:22.5956	0.351471	2.63529	0.976471
+right:15.5603	0.370588	2.39412	0.986765
+Mon Apr 3 02:03:08 EDT 2017
+
+/usr1/public/fanyang1/KB2E/data-kin/exps/log.txt
+25 104
+left:17.5182	0.371818	10.9255	0.678182
+right:15.5564	0.471818	10.2455	0.714545
+Mon Apr 3 02:03:23 EDT 2017
+
+/usr1/public/fanyang1/KB2E/data-umls-v2/exps/log.txt
+46 135
+left:22.8246	0.328594	2.71248	0.965245
+right:15.8009	0.399684	2.6951	0.965245
+Mon Apr 10 21:53:38 EDT 2017
+
+/usr1/public/fanyang1/KB2E/data-science/exps/log.txt
+1591 42736
+left:374.867	0.243232	359.588	0.268702
+right:369.255	0.27697	356.851	0.29924
+Fri Apr 14 21:49:41 EDT 2017
+
+/usr1/public/fanyang1/KB2E/data-nell/exps/log.txt
+407 26332
+left:1358.33	0.276516	1300.57	0.390919
+right:711.664	0.4906	686.443	0.580348
+Fri Apr 14 22:30:00 EDT 2017
+
+/usr1/public/fanyang1/KB2E/data-fb-237/exps/log.txt
+237 14541
+left:770.289	0.196814	525.208	0.335288
+right:209.786	0.428076	184.149	0.566989
+Fri Apr 7 22:32:00 EDT 2017

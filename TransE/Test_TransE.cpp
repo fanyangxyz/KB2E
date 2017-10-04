@@ -268,7 +268,7 @@ void prepare()
         test.add(entity2id[s1],entity2id[s2],relation2id[s3],true);
     }
     fclose(f_kb);
-    FILE* f_kb1 = fopen("../full_train.txt","r");
+    FILE* f_kb1 = fopen("../train.txt","r");
 	while (fscanf(f_kb1,"%s",buf)==1)
     {
         string s1=buf;
